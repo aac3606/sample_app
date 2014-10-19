@@ -1,5 +1,14 @@
 <% provide(:title, "Home")%>
+<div class="center jumbotron">
+  <h1>Welcome to the Project Compliance</h1>
 
-<h1>Project Compliance </h1>
-<p>You would need to register new project.</p>
-<p>If the project has not done the review this year, you would need to submit compliance report</p>
+  <h2>
+    This is the web site for registering projects for compliance.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+
