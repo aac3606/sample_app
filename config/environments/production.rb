@@ -71,7 +71,9 @@ SampleApp::Application.configure do
 
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
-
+  ##### config.force_ssl = true
+  ##### gem 'unicorn', '4.8.3'
+  ##### ruby '2.1.1'
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
 
